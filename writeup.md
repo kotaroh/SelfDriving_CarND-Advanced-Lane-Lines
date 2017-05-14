@@ -112,4 +112,7 @@ Here's a [link to my video result](./output/lanedetection.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+The implementation is based on the sessions of this section.Overall the lane detection works well even with some shadows and vehicles are in the sceen of the project video.
+
+However, the video output by my implementation shows some distruption because of shadows. They can be avoided by tuning parameters for threasholding.
+Also, the video shows lanes very cleanly.In the actual scenarios, more factors could make lane detection harder, such as weather (rain, snow, etc.), other traffic, bad road condition, etc. More parameter tuning of image thretholding and other data captureed by other sensors would be needed to make the lane detection more robust.
